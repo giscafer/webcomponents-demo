@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>template</title>
+</head>
+
+<body>
+    <template id="my-paragraph">
+        <style>
+            p {
+                color: white;
+                background-color: #666;
+                padding: 5px;
+            }
+        </style>
+        <p>My paragraph <slot name="test-slot">测试slot使用方式!</slot></p>
+    </template>
+    <my-paragraph>
+        <span slot="test-slot">Let's have some different text!</span>
+    </my-paragraph>
+    <script src="main.js"></script>
+</body>
+
+</html>
