@@ -5,6 +5,10 @@ demo &amp; ppt share of webcomponents
 PPT online —— [认识 Web Components](http://yanshuo.io/assets/player/?deck=5b3e1196fe88c20035d21968#/)
 
 
+## Other Demo
+
+- [github/auto-complete-element](https://github.com/github/auto-complete-element)
+
 ## Related
 
 - [webcomponents / webcomponentsjs](https://github.com/webcomponents/webcomponentsjs) A suite of polyfills supporting the HTML Web Components specs
